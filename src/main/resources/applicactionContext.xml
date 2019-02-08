@@ -8,5 +8,9 @@
 	<import resource="context-transaction.xml"/> -->
 	
 	
-	<bean id="tv" class="polymorphism.SamsungTV" scope="prototype"/>
+	<bean id="tv" class="polymorphism.SamsungTV" >
+		<constructor-arg ref="sony"></constructor-arg>
+	</bean>
+	
+	<bean id="sony" class="polymorphism.SonySpeaker"></bean>
 </beans>

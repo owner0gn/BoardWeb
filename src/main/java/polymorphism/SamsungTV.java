@@ -6,6 +6,10 @@ public class SamsungTV implements TV{
 	public SamsungTV() {
 		System.out.println("===> SamsungTV Object be created");
 	}
+	public SamsungTV(SonySpeaker speaker) {
+		System.out.println("===> SamsungTV(2) Object be created");
+		this.speaker = speaker;
+	}
 	
 	public void initMethod() {
 		System.out.println("객체 초기화 작업 처리..");
@@ -24,13 +28,11 @@ public class SamsungTV implements TV{
 	}
 	
 	public void volumeUp() {
-		speaker = new SonySpeaker();
 		speaker.volumeUp();
 		//System.out.println("SamsungTV---volume up.");
 	}
 	
 	public void volumeDown() {
-		speaker = new SonySpeaker();
 		speaker.volumeDown();
 		//System.out.println("SamsungTV---volume down.");
 	}
