@@ -1,6 +1,10 @@
 package polymorphism;
 
 public class LgTV implements TV {
+	public LgTV() {
+		System.out.println("===> LgTV Object be created");
+	}
+	
 	public void powerOn() {
 		System.out.println("LgTV---power on.");
 	}
