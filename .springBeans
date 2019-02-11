@@ -7,12 +7,6 @@
 	</configSuffixes>
 	<enableImports><![CDATA[true]]></enableImports>
 	<configs>
-		<config>src/main/resources/applicactionContext.xml</config>
-		<config>src/main/resources/context-datasource.xml</config>
-		<config>src/main/resources/context-transaction.xml</config>
-		<config>src/main/resources/context-security.xml</config>
-		<config>src/main/resources/context-aspect.xml</config>
-		<config>src/main/resources/context-common.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

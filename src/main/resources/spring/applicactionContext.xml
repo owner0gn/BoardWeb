@@ -8,7 +8,11 @@
 
 	<context:component-scan base-package="com.springbook.biz"/>
 
+	<import resource="context-aspect .xml"/>
+	<import resource="context-transaction.xml"/>
 	<import resource="context-datasource.xml"/>
+	<import resource="context-security.xml"/>
+	<import resource="context-common.xml"/>
 	<import resource="context-transaction.xml"/>
 	
 </beans>
